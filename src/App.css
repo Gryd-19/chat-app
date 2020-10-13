@@ -1,0 +1,156 @@
+body {
+  background-color: #161616;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.App {
+  text-align: center;
+  max-width: 40vw;
+  margin: 0 auto;
+  
+}
+
+.App header {
+  background-color: #181717;
+  font-size:3vw;
+  height: 10vh;
+  min-height: 50px;
+  color: white;
+  position: fixed;
+  width: 100%;
+  max-width: 40vw;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 99;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.App section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #161616;
+  box-shadow: 4px 0px 2px rgba(0, 0, 0, 0.2),-4px 0px 2px rgba(0, 0, 0, 0.2)
+}
+
+main {
+  padding: 10px;
+  height: 80vh;
+  margin: 10vh 0 10vh;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+form {
+  height: 10vh;
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(24, 23, 23);
+  width: 100%;
+  max-width: 40vw;
+  display: flex;
+  font-size: 1vw;
+}
+
+form button {
+  width: 20%;
+  font-size: 2vw;
+}
+ button:hover{
+  background-color: #14dbb3;
+
+}
+
+
+input {
+  background-color: #161616;
+  color: white;
+  text-shadow: 3px 3px 2px #000000;
+  border: 0.1em solid #ffffff;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 2vw;
+}
+input:focus{
+  background-color: #ffffff!important;
+  color:#161616!important;
+  text-shadow: none;
+}
+
+button {
+  background-color: crimson;
+  text-shadow: 3px 2px 2px #000000;
+  border: none;
+  color: white;
+  padding: 1vh 1vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 2vw;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+
+.sign-in {
+  color: white;
+  background: crimson;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+ul, li {
+  text-align: left;
+  list-style: none;
+}
+
+p {
+  max-width: 20vw;
+  margin-bottom: 1vh;
+  line-height: 2vh;
+  padding: 10px 20px;
+  border-radius: 25px;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  font-size: 1vw;
+}
+
+
+.sent {
+  flex-direction: row-reverse;
+}
+
+.sent p {
+  color: white;
+  background: #14dbb3;
+  align-self: flex-end;
+}
+.received p {
+  background: crimson;
+  color: black;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 2px 5px;
+}

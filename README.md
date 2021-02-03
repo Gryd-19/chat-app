@@ -1,4 +1,4 @@
-##Done following a fireship [tutorial](https://www.youtube.com/watch?v=zQyrwxMPm88).
+Done following a fireship [tutorial](https://www.youtube.com/watch?v=zQyrwxMPm88).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
